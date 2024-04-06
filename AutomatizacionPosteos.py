@@ -12,10 +12,10 @@ server_list = ["https://discord.com/api/v9/channels/947604617598996554/messages"
              "https://discord.com/api/v9/channels/782077406533255187/messages"]
 def twitter(post):
     api_key="Fz0O2bKWJNIVSu4mUCp1X00MT"
-    api_secret_key="lSlVVhmnHR11IBMNiQyCYJjN04iGaAwZwik3hUqCUOXU39Qhhg"
+    api_secret_key=""
     #bearerToken= "AAAAAAAAAAAAAAAAAAAAAFbNZgEAAAAAMOx1TrH8pwDC60e5YSiak9xcLIo%3DLR22JQF8yTrUDw16gSw9tORCSXrkilIGig2PnPVhFz5HWnwTQE"
     access_token= "1051116491406499840-QLdwB6PwKlu4D65poG0hzkmz0U2Bal"
-    access_token_secret= "jsDK9Ran7CkjtutuoGlw5nRja01etPZXVYo3Ezp1MaqPC"
+    access_token_secret= ""
 
     auth = tweepy.OAuthHandler(api_key, api_secret_key)
     auth.set_access_token(access_token, access_token_secret)
@@ -41,7 +41,7 @@ def discord(post, server):
         'content': post
     }
     header = {
-        'authorization': "NjkyMzk1OTI3Mjg5NDYyODY1.X1wywQ.xizukOyjoRxDPvW2yAuQ3xscpmw"
+        'authorization': ""
         #este es el acces token universal de mi cuenta para hacer posteos en cualquer servidor
     }
     try:
